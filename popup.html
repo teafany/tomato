@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title-container">
+        <h1>Pomodoro <img id="tomatoImage" src="./images/tomato.png"></h1>
+    </div>
+    <h2 id="sessionLabel">Start your focus sessions!</h2>
+    <h2 id="timerDisplay">25:00</h2>
+    <p id="sessionCounter">Session 1 of 4</p>
+    <div class="button-container">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div id="buttonContainer">
+        <button id="todoButton" title="Open To-Do List">📋</button>
+        <button id="videoButton" title="Open Gameplay Viewer">🎥</button>
+      </div>   
+    <div>
+        <button id="helpButton" title="Help">❔</button>
+    </div>   
+    <script src="popup.js"></script>
+</body>
+</html>
